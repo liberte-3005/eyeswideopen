@@ -6,6 +6,9 @@ body {
   font-family: 'Times New Roman', Times, serif;
   font-weight: bolder;
 }
+a{
+    text-decoration: none;
+}
 .main-img{
     display: flex;
     justify-content: center;
@@ -22,12 +25,931 @@ body {
     color: rgb(0, 0, 0);
     font-size: 12vmax;
     font-weight: bold;
-        opacity: 0;
-        animation: fadein 4s ease forwards;
+    opacity: 0;
+    animation: fadein 4s ease forwards;
+}
+@keyframes fadein {
+    100% {  opacity: 1;}
+}
+
+
+
+
+@media screen and (max-width:768px) {
+    .none{
+        display: none;
     }
-    @keyframes fadein {
-        100% {  opacity: 1;}
+
+/*それぞれのBOX*/
+.card {
+    padding:16px;
+    margin: 8px;
+}
+.container{
+    flex-wrap: wrap;
+}
+
+/*part1*/
+.bg-top{
+    background: #ffffff94;
+    box-shadow: 0px 10px 8px 4px rgba(0, 0, 0, 0.089);
+    height: 450px;
+    margin-bottom: 160px;
+}
+.f-container-top{
+    display: flex;
+    justify-content: center;
+}
+
+.card-body1{
+    position: relative;
+    top: 0px;
+    left: 80px;
+    width: 80px;
+    height: 240px;
+    background: #fff;
+    opacity: 0.6;
+    box-shadow: 0px 10px 20px 10px rgba(0, 0, 0, 0.178);
+}
+.card-body2{
+    position: relative;
+    top: -280px;
+    right: 0px;
+    width: 100%;
+    height: auto;
+    background: transparent;
+    box-shadow: 10px 0px 20px 10px rgba(0, 0, 0, 0.178);
+}
+.card-body02{
+    position: relative;
+    top: -280px;
+    right: 0px;
+    width: 240px;
+    height: auto;
+    background: transparent;
+}
+
+
+/*part2*/
+.f-container-center{
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-weight:lighter;
+}
+.scroll-title{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 100%;
+    height: auto;
+    display: block;
+    color: #253d8a;
+    font-weight: bold;
+    font-size: 9vmax;
+    padding-top: 8px;
+    text-align: center;
+    opacity: 0.4;
+}
+
+.bg-center{
+    background: url();
+}
+
+    /* i can't stop me */
+.card-body4{
+    position: relative;
+    top: 0px;
+    right: 0px;
+    width: 240px;
+    height: 480px;
+    box-shadow: 5px 5px 10px 6px #00000070;
+    background: url(img/4177990_s.jpg);
+}
+.card-body4:hover .mask-txt{
+    opacity: 1;
+}
+    /* hell in heaven */
+.card-body5{
+    position: relative;
+    top: 0px;
+    right: 0px;
+    width: 240px;
+    height: 480px;
+    box-shadow: 5px 5px 10px 6px #00000070;
+    background: url(img/4177990_s.jpg);
+}
+.card-body5:hover .mask-txt{
+    opacity: 1;
+}
+    /* up no more */
+.card-body6{
+    position: relative;
+    top: 0px;
+    right: 0px;
+    width: 240px;
+    height: 480px;
+    box-shadow: 5px 5px 10px 6px #00000070;
+    background: url(img/4177990_s.jpg);
+}
+.card-body6:hover .mask-txt{
+    opacity: 1;
+}
+
+    /*do what we like */
+.card-body7{
+    position: relative;
+    top: 0px;
+    right: 0px;
+    width: 240px;
+    height: 480px;
+    box-shadow: 5px 5px 10px 6px #00000070;
+    background: url(img/4177990_s.jpg);
+}
+.card-body7:hover .mask-txt{
+    opacity: 1;
+}
+    /* bring it back */
+.card-body8{
+    position: relative;
+    top:0px;
+    right: 0px;
+    width: 240px;
+    height: 480px;
+    box-shadow: 5px 5px 10px 6px #00000070;
+   background: url(img/4177990_s.jpg);
+}
+.card-body8:hover .mask-txt{
+    opacity: 1;
+}
+    /* believer */
+.card-body9{
+    position: relative;
+    top: 0px;
+    right: 0px;
+    width: 240px;
+    height: 480px;
+    box-shadow: 5px 5px 10px 6px #00000070;
+   background: url(img/4177990_s.jpg);
+}
+.card-body9:hover .mask-txt{
+    opacity: 1;
+}
+    /* queen */
+.card-body10{
+    position: relative;
+    top: 0px;
+    right: 0px;
+    width: 240px;
+    height: 480px;
+    box-shadow: 5px 5px 10px 6px #00000070;
+   background: url(img/4177990_s.jpg);
+}
+.card-body10:hover .mask-txt{
+    opacity: 1;
+}
+    /* go dard */
+.card-body11{
+    position: relative;
+    top: 0px;
+    right: 0px;
+    width: 240px;
+    height: 480px;
+    box-shadow: 5px 5px 10px 6px #00000070;
+    background: url(img/4177990_s.jpg);
+}
+.card-body11:hover .mask-txt{
+    opacity: 1;
+}
+    /* shot clock */
+.card-body12{
+    position: relative;
+    top: 0px;
+    right: 0px;
+    width: 240px;
+    height: 480px;
+    box-shadow: 5px 5px 10px 6px #00000070;
+    background: url(img/4177990_s.jpg);
+}
+.card-body12:hover .mask-txt{
+    opacity: 1;
+}
+    /* handle it */
+.card-body13{
+    position: relative;
+    top: 0px;
+    right: 0px;
+    width: 240px;
+    height: 480px;
+    box-shadow: 5px 5px 10px 6px #00000070;
+    background: url(img/4177990_s.jpg);
+}
+.card-body13:hover .mask-txt{
+    opacity: 1;
+}
+    /* depend un you */
+.card-body14{
+    position: relative;
+    top: 0px;
+    right: 0px;
+    width: 240px;
+    height: 480px;
+    box-shadow: 5px 5px 10px 6px #00000070;
+   background: url(img/4177990_s.jpg);
+}
+.card-body14:hover .mask-txt{
+    opacity: 1;
+}
+    /* say something */
+.card-body15{
+    position: relative;
+    top: 0px;
+    right: 0px;
+    width: 240px;
+    height: 480px;
+    box-shadow: 5px 5px 10px 6px #00000070;
+   background: url(img/4177990_s.jpg);
+}
+.card-body15:hover .mask-txt{
+    opacity: 1;
+}
+    /*behind the mask */
+.card-body16{
+    position: relative;
+    top: 0px;
+    right: 0px;
+    width: 240px;
+    height: 480px;
+    box-shadow: 5px 5px 10px 6px #00000070;
+   background: url(img/4177990_s.jpg);
+}
+.card-body16:hover .mask-txt{
+    opacity: 1;
+}
+.card-body-tran{
+    position: relative;
+    right: 0px;
+    width: 240px;
+    height: 480px;
+    background-color: transparent;
+}
+.title-txt{
+    display: flex;
+    position: absolute;
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 2px 3px #ffffff;
+}
+.caption-txt{
+    font-size:130%;
+	color:#fff;
+}
+.mask-txt{
+    width:100%;
+	height:100%;
+	position:absolute;
+    display: flex;
+    align-items: flex-end;
+	top:0;
+	left:0;
+
+	background-color:rgba(0, 0, 0, 0.39);
+	-webkit-transition:	all 0.6s ease;
+	transition:all 0.6s ease;
+}
+
+
+
+/* part3*/
+.f-container-link{
+    padding-bottom:16px ;
+    height: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-weight:lighter;    
+}
+.bg-link{
+    background: rgba(255, 255, 255, 0.692);
+    opacity: 0.9;
+}
+.card-body-link-1{
+    position: relative;
+}
+.card-body-link-2{
+    width: 240px;
+    position: relative;
+    top: -32px;
+}
+
+
+/* part4*/
+.f-container-bottom{
+    padding-bottom:16px ;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-weight:lighter;
+}
+.bg-bottom{
+    margin: 80px 0;
+    background: transparent;
+}
+.card-body-btm-pic{
+    position: relative;
+    box-shadow: 5px 5px 10px 6px #00000070;
+    top: 0px;
+}
+.flowbtn-twice{
+    border-radius:50%;
+    position:relative;
+    display:inline-block;
+    width:50px;
+    height:50px;
+    font-size:30px;
+    text-decoration:none;
+    transition:.5s;
+    background-color:rgb(148, 18, 18);
+    color:#fff;
+}
+/* ボタンマウスホバー時のテキスト指定 */
+.flowbtn-twice:hover{
+    text-decoration:none;
+}
+/* アイコンをど真ん中に */
+.flowbtn-twice i{
+    position:absolute;
+    top:50%;
+    left:50%;
+    -ms-transform:translate(-50%,-50%);
+    -webkit-transform:translate(-50%,-50%);
+    transform:translate(-50%,-50%);
+}
+.card-body-btm-sns{
+    position: relative;
+    top: -48px;
+    right: 0px;
+}
+.card-body-btm-txt{
+    position: relative;
+    top: -124px;
+    right: 0px;
+}
+.card-body-btm-sq{
+    display: flex;
+}
+.card-body-btm-sq a:visited{
+    color: #fff;
+}
+
+.square1{
+    position: relative;
+    top: 0px;
+    right: 8px;
+    background: linear-gradient( 45deg,#9acd32, #258a85 );
+    text-align: center;
+    color:transparent;
+}
+.square2{
+    position: relative;
+    top: 0px;
+    right: -8px;
+    background: linear-gradient( 45deg,#bc2dcf, #25518a );
+    text-align: center;
+    color: transparent;
+}
+
+
+/* part5*/
+.f-container-foot{
+    padding-bottom:16px ;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-weight:lighter;
+}
+.bg-foot{
+    background: #272343;
+    color: #fff;
+}
+.card-foot1{
+    width: 240px;
+    height: 240px;
+    background: #b1a2c2;
+    position: relative;
+    top:0px;
+    text-align: center;
+}
+.card-foot2{
+    width: 240px;
+    height: auto;
+    position: relative;
+}
+.sns-btn{
+    margin-top: 32px;
+    width: 240px;
+    height: 48px;
+    border: 1px solid transparent;
+    background-color: #fff;
+}
+
+.btn-txt{
+    text-align: center;
+}
+/*フェードイン*/
+.fade-in {
+    opacity: 0;
+    transition-duration: 500ms;
+    transition-property: opacity, transform;
+  }
+  .scroll-in {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}
+/*phoneここまで*/
+
+/*ここからミディアム*/
+@media screen and (min-width:768px) and (max-width:1295px) {
+
+    .none{
+        display: none;
     }
+
+/*それぞれのBOX*/
+.card {
+    padding:24px;
+    margin: 16px;
+}
+.container{
+    flex-wrap: wrap;
+}
+
+/*part1*/
+.bg-top{
+    background: #ffffff94;
+    box-shadow: 0px 10px 8px 4px rgba(0, 0, 0, 0.089);
+    height: 720px;
+    margin-bottom: 160px;
+}
+.f-container-top{
+    display: flex;
+    justify-content: center;
+}
+
+.card-body1{
+    position: relative;
+    top: -80px;
+    right: 240px;
+    width: 160px;
+    height: 480px;
+    background: #fff;
+    opacity: 0.6;
+    box-shadow: 0px 10px 20px 10px rgba(0, 0, 0, 0.178);
+}
+.card-body2{
+    position: relative;
+    top: -560px;
+    right: 0px;
+    width: 100%;
+    height: auto;
+    background: transparent;
+    box-shadow: 10px 0px 20px 10px rgba(0, 0, 0, 0.178);
+}
+.card-body02{
+    position: relative;
+    top: -560px;
+    right: 0px;
+    width: 280px;
+    height: auto;
+    background: transparent;
+}
+
+
+/*part2*/
+.f-container-center{
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-weight:lighter;
+}
+.scroll-title{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 100%;
+    height: auto;
+    display: block;
+    color: #253d8a;
+    font-weight: bold;
+    font-size: 9vmax;
+    padding-top: 8px;
+    text-align: center;
+    opacity: 0.4;
+}
+
+.bg-center{
+    background: url();
+}
+
+    /* i can't stop me */
+.card-body4{
+    position: relative;
+    top: 0px;
+    right: 0px;
+    width: 240px;
+    height: 480px;
+    box-shadow: 5px 5px 10px 6px #00000070;
+    background: url(img/4177990_s.jpg);
+}
+.card-body4:hover .mask-txt{
+    opacity: 1;
+}
+    /* hell in heaven */
+.card-body5{
+    position: relative;
+    top: 0px;
+    right: 0px;
+    width: 240px;
+    height: 480px;
+    box-shadow: 5px 5px 10px 6px #00000070;
+    background: url(img/4177990_s.jpg);
+}
+.card-body5:hover .mask-txt{
+    opacity: 1;
+}
+    /* up no more */
+.card-body6{
+    position: relative;
+    top: 0px;
+    right: 0px;
+    width: 240px;
+    height: 480px;
+    box-shadow: 5px 5px 10px 6px #00000070;
+    background: url(img/4177990_s.jpg);
+}
+.card-body6:hover .mask-txt{
+    opacity: 1;
+}
+
+    /*do what we like */
+.card-body7{
+    position: relative;
+    top: 0px;
+    right: 0px;
+    width: 240px;
+    height: 480px;
+    box-shadow: 5px 5px 10px 6px #00000070;
+    background: url(img/4177990_s.jpg);
+}
+.card-body7:hover .mask-txt{
+    opacity: 1;
+}
+    /* bring it back */
+.card-body8{
+    position: relative;
+    top:0px;
+    right: 0px;
+    width: 240px;
+    height: 480px;
+    box-shadow: 5px 5px 10px 6px #00000070;
+   background: url(img/4177990_s.jpg);
+}
+.card-body8:hover .mask-txt{
+    opacity: 1;
+}
+    /* believer */
+.card-body9{
+    position: relative;
+    top: 0px;
+    right: 0px;
+    width: 240px;
+    height: 480px;
+    box-shadow: 5px 5px 10px 6px #00000070;
+   background: url(img/4177990_s.jpg);
+}
+.card-body9:hover .mask-txt{
+    opacity: 1;
+}
+    /* queen */
+.card-body10{
+    position: relative;
+    top: 0px;
+    right: 0px;
+    width: 240px;
+    height: 480px;
+    box-shadow: 5px 5px 10px 6px #00000070;
+   background: url(img/4177990_s.jpg);
+}
+.card-body10:hover .mask-txt{
+    opacity: 1;
+}
+    /* go dard */
+.card-body11{
+    position: relative;
+    top: 0px;
+    right: 0px;
+    width: 240px;
+    height: 480px;
+    box-shadow: 5px 5px 10px 6px #00000070;
+    background: url(img/4177990_s.jpg);
+}
+.card-body11:hover .mask-txt{
+    opacity: 1;
+}
+    /* shot clock */
+.card-body12{
+    position: relative;
+    top: 0px;
+    right: 0px;
+    width: 240px;
+    height: 480px;
+    box-shadow: 5px 5px 10px 6px #00000070;
+    background: url(img/4177990_s.jpg);
+}
+.card-body12:hover .mask-txt{
+    opacity: 1;
+}
+    /* handle it */
+.card-body13{
+    position: relative;
+    top: 0px;
+    right: 0px;
+    width: 240px;
+    height: 480px;
+    box-shadow: 5px 5px 10px 6px #00000070;
+    background: url(img/4177990_s.jpg);
+}
+.card-body13:hover .mask-txt{
+    opacity: 1;
+}
+    /* depend un you */
+.card-body14{
+    position: relative;
+    top: 0px;
+    right: 0px;
+    width: 240px;
+    height: 480px;
+    box-shadow: 5px 5px 10px 6px #00000070;
+   background: url(img/4177990_s.jpg);
+}
+.card-body14:hover .mask-txt{
+    opacity: 1;
+}
+    /* say something */
+.card-body15{
+    position: relative;
+    top: 0px;
+    right: 0px;
+    width: 240px;
+    height: 480px;
+    box-shadow: 5px 5px 10px 6px #00000070;
+   background: url(img/4177990_s.jpg);
+}
+.card-body15:hover .mask-txt{
+    opacity: 1;
+}
+    /*behind the mask */
+.card-body16{
+    position: relative;
+    top: 0px;
+    right: 0px;
+    width: 240px;
+    height: 480px;
+    box-shadow: 5px 5px 10px 6px #00000070;
+   background: url(img/4177990_s.jpg);
+}
+.card-body16:hover .mask-txt{
+    opacity: 1;
+}
+.card-body-tran{
+    position: relative;
+    right: 0px;
+    width: 240px;
+    height: 480px;
+    background-color: transparent;
+}
+.title-txt{
+    display: flex;
+    position: absolute;
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 2px 3px #ffffff;
+}
+.caption-txt{
+    font-size:130%;
+	color:#fff;
+}
+.mask-txt{
+    width:100%;
+	height:100%;
+	position:absolute;
+    display: flex;
+    align-items: flex-end;
+	top:0;
+	left:0;
+
+	background-color:rgba(0, 0, 0, 0.39);
+	-webkit-transition:	all 0.6s ease;
+	transition:all 0.6s ease;
+}
+
+
+
+/* part3*/
+.f-container-link{
+    padding-bottom:16px ;
+    height: 560px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-weight:lighter;    
+}
+.bg-link{
+    margin: 80px 0;
+    background: rgba(255, 255, 255, 0.692);
+    opacity: 0.9;
+}
+.card-body-link-1{
+    position: relative;
+    box-shadow: 5px 5px 10px 6px #00000070;
+}
+.card-body-link-2{
+    width: 240px;
+    position: relative;
+}
+
+
+/* part4*/
+.f-container-bottom{
+    padding-bottom:16px ;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-weight:lighter;
+}
+.bg-bottom{
+    margin: 80px 0;
+    background: transparent;
+}
+.card-body-btm-pic{
+    position: relative;
+    box-shadow: 5px 5px 10px 6px #00000070;
+    top: 160px;
+}
+.flowbtn-twice{
+    border-radius:50%;
+    position:relative;
+    display:inline-block;
+    width:50px;
+    height:50px;
+    font-size:30px;
+    text-decoration:none;
+    transition:.5s;
+    background-color:rgb(148, 18, 18);
+    color:#fff;
+}
+/* ボタンマウスホバー時のテキスト指定 */
+.flowbtn-twice:hover{
+    text-decoration:none;
+}
+/* アイコンをど真ん中に */
+.flowbtn-twice i{
+    position:absolute;
+    top:50%;
+    left:50%;
+    -ms-transform:translate(-50%,-50%);
+    -webkit-transform:translate(-50%,-50%);
+    transform:translate(-50%,-50%);
+}
+.card-body-btm-sns{
+    position: relative;
+    top: 80px;
+    right: -240px;
+}
+.card-body-btm-txt{
+    position: relative;
+    top: 0px;
+    right: 0px;
+}
+.card-body-btm-sq{
+    display: flex;
+}
+.card-body-btm-sq a:visited{
+    color: #fff;
+}
+.square1{
+    margin-right: 42px;
+    top: -80px;
+    position: relative;
+    width: 320px;
+    height: 50px;
+    background: linear-gradient( 45deg,#9acd32, #258a85 );
+    text-align: center;
+    color:transparent;
+}
+.square2{
+    margin-left: 42px;
+    top: -80px;
+    position: relative;
+    width: 320px;
+    height: 50px;
+    background: linear-gradient( 45deg,#bc2dcf, #25518a );
+    text-align: center;
+    color: transparent;
+}
+
+
+
+/* part5*/
+.f-container-foot{
+    padding-bottom:16px ;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-weight:lighter;
+}
+.bg-foot{
+    background: #272343;
+    color: #fff;
+}
+.card-foot1{
+    width: 560px;
+    height: 480px;
+    background: #b1a2c2;
+    position: relative;
+    top:0px;
+    text-align: center;
+}
+.card-foot2{
+    width: 320px;
+    height: auto;
+    position: relative;
+}
+.sns-btn{
+    margin-top: 32px;
+    width: 320px;
+    height: 48px;
+    border: 1px solid transparent;
+    background-color: #fff;
+}
+
+.btn-txt{
+    text-align: center;
+}
+/*フェードイン*/
+.fade-in {
+    opacity: 0;
+    transition-duration: 1000ms;
+    transition-property: opacity, transform;
+  }
+  
+  .fade-in-up {
+    transform: translate(0, 50px);
+  }
+  
+  .fade-in-down {
+    transform: translate(0, -50px);
+  }
+  
+  .fade-in-left {
+    transform: translate(-50px, 0);
+  }
+  
+  .fade-in-right {
+    transform: translate(50px, 0);
+  }
+  
+  .scroll-in {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}
+/*ミディアムここまで*/
+
+
+/*ここからPC*/
+@media screen and (min-width:1295px) {
+.media-music{
+    display: none;
+}
 
 /*それぞれのBOX*/
 .card {
@@ -360,7 +1282,7 @@ body {
     font-size:30px;
     text-decoration:none;
     transition:.5s;
-    background-color:#444;
+    background-color:rgb(148, 18, 18);
     color:#fff;
 }
 /* ボタンマウスホバー時のテキスト指定 */
@@ -389,16 +1311,18 @@ body {
 .card-body-btm-sq{
     display: flex;
 }
+.card-body-btm-sq a:visited{
+    color: #fff;
+}
 .square1{
     margin-right: 42px;
     top: -160px;
     position: relative;
     width: 320px;
     height: 50px;
-    background-color: transparent;
-    border: 1px solid #9acd32 ;
+    background: linear-gradient( 45deg,#9acd32, #258a85 );
     text-align: center;
-    color:#9acd32;
+    color:transparent;
 }
 .square2{
     margin-left: 42px;
@@ -406,10 +1330,9 @@ body {
     position: relative;
     width: 320px;
     height: 50px;
-    background-color: transparent;
-    border: 1px solid #9acd32 ;
+    background: linear-gradient( 45deg,#bc2dcf, #25518a );
     text-align: center;
-    color: #9acd32;
+    color: transparent;
 }
 
 
@@ -431,6 +1354,7 @@ body {
     height: 480px;
     background: #b1a2c296;
     position: relative;
+    text-align: center;
     top: -80px;
 }
 .card-foot2{
@@ -456,9 +1380,6 @@ body {
 .btn-txt{
     text-align: center;
 }
-
-
-
 
 
 /*フェードイン*/
@@ -489,6 +1410,6 @@ body {
     transform: translate(0, 0);
   }
 
-
+}
 
   
